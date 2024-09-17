@@ -1,0 +1,87 @@
+.body {
+  display: block;
+  margin: 600px;
+  font-family: "Roboto", sans-serif;
+}
+
+.form {
+  display: block;
+}
+
+.city-input {
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  font-size: 14px;
+  padding: 25px;
+}
+
+.search-button {
+  border: none;
+  border-radius: 10px;
+  background-color: #885df1;
+  color: white;
+  font-size: 14px;
+  padding: 25px;
+}
+.header {
+  display: block;
+}
+
+.section {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.weather {
+  max-width: 580px;
+  margin: 55px auto;
+  background: rgb(216, 214, 214);
+  padding: 40px 40px;
+  border-radius: 5px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-city {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 35px;
+}
+
+.city-details {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: lightslategray;
+}
+
+.current-temp-emoji {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+
+.current-temp-value {
+  font-family: "Roboto", sans-serif;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.current-temp-unit {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 350;
+  position: relative;
+  top: -25px;
+}
+
+.lightf {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: lightslategray;
+  text-align: center;
+}
